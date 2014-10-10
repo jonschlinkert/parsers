@@ -1,0 +1,55 @@
+{
+  "name": "parsers",
+  "description": "Like consolidate.js, but for parsers instead of engines.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/parsers",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/parsers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/parsers/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/parsers/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "gray-matter": "^0.5.1",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.2",
+    "mocha": "*",
+    "remarkable": "^1.0.0",
+    "verb": ">= 0.2.6"
+  },
+  "keywords": [
+    "front",
+    "front-matter",
+    "gray",
+    "gray-matter",
+    "js",
+    "markdown",
+    "markdown-js",
+    "marked",
+    "matter",
+    "parse",
+    "parser",
+    "parsers",
+    "parsing",
+    "remarkable",
+    "yaml"
+  ]
+}
