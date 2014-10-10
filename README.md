@@ -3,6 +3,8 @@
 
 > Like consolidate.js, but for parsers instead of engines.
 
+### WIP Not ready to use in production yet.
+
 ## Install
 #### Install with [npm](npmjs.org):
 
@@ -20,15 +22,10 @@ npm test
 
 ```js
 var parsers = require('parsers');
-console.log(parsers('abc'));
-//=> ['a', 'b', 'c'];
+
+parsers.remarkable('# Is Awesome!');
+//=> '<h1>Is Awesome!</h1>'
 ```
-
-## API
-### [.clearCache](index.js#L30)
-
-
-Clear the cache.
 
 ## Author
 
